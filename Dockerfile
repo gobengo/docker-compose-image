@@ -7,7 +7,7 @@ RUN apk add --update --no-cache \
   # python3-dev \
   # build-base \
   py-pip \
-  # gcc \
+  gcc \
   # openssl-dev \
   libffi-dev \
   openssh-client
