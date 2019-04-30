@@ -8,7 +8,7 @@ RUN apk add --update --no-cache \
   build-base \
   py-pip \
   gcc \
-  # openssl-dev \
+  openssl-dev \
   libffi-dev \
   openssh-client
 
