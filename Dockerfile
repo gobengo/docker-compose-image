@@ -4,13 +4,12 @@ FROM ${docker_image} as docker
 
 RUN apk add --update --no-cache \
   python-dev \
-  python3-dev \
+  # python3-dev \
   build-base \
   py-pip \
   gcc \
   openssl-dev \
   libffi-dev \
-  git \
   openssh-client
 
 RUN pip install --upgrade pip
