@@ -5,7 +5,7 @@ FROM ${docker_image} as docker
 RUN apk add --update --no-cache \
   python-dev \
   # python3-dev \
-  # build-base \
+  build-base \
   py-pip \
   gcc \
   # openssl-dev \
